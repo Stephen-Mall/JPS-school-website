@@ -1,0 +1,60 @@
+/* Navbar & Footer CSS* Start */
+.header{
+    background-color: #B22600;
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    font-family: arial;
+    color: white;
+}
+.navbar{
+    font-size: 20px;
+    font-family: verdana;
+    color: #B22600;
+    margin-bottom: -30px;
+}
+li{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #B22600;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.footer{
+    font-family: verdana;
+    background-color: #B22600;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #B22600;
+}
+a:hover {
+    color: white;
+    background-color: #B22600;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Navbar & Footer CSS* End */
+.main-content h3{
+    text-align: center;
+    color: #B22600;
+    padding: 5px 0 5px 0;
+}
+.main-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px #B22600;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.main-content b{
+    color: rgb(0, 46, 199);
+}

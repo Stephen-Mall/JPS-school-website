@@ -1,0 +1,120 @@
+
+*, *:before, *:after {
+   box-sizing: border-box; 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cf-1{
+    background-image: url(images/school-building2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 710px;
+    position: relative;
+}
+.cf-2{
+    background: #000000b9 ;
+    padding: 1em;
+    height: 350px;
+    width: 600px;
+    padding-top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.cf-2 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   color: #ffffff;
+}
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+input, textarea { 
+    background-color: rgb(226, 226, 226);   
+    border: 0; 
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+  }
+input :focus {
+    box-shadow: 0 0px 2px rgba(red, 1) !important;
+ }
+textarea :focus{
+    box-shadow: 0 0px 2px rgba(red, 1) !important;
+}
+textarea {
+    height: 154px;
+}  
+#input-submit {
+    background:#B22600;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: .5em;
+  }
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+.right { 
+    width: 50%; 
+}
+.left {
+    margin-right: 2%; 
+}
+
+/* Navbar & Footer CSS* Start */
+.header{
+    background-color: #B22600;
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    font-family: arial;
+    color: white;
+}
+.navbar{
+    font-size: 20px;
+    font-family: verdana;
+    color: #B22600;
+    margin-bottom: -30px;
+}
+li{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #B22600;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.footer{
+    font-family: verdana;
+    background-color: #B22600;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #B22600;
+}
+a:hover {
+    color: white;
+    background-color: #B22600;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Navbar & Footer CSS* End */
